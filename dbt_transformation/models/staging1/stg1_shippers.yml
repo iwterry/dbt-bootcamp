@@ -1,0 +1,31 @@
+version: 2
+models:
+  - name: stg1_shippers
+    description: ''
+    columns:
+      - name: shipper_id
+        description: ''
+      - name: shipper_company_name
+        description: ''
+      - name: shipper_last_name
+        description: ''
+      - name: shipper_first_name
+        description: ''
+      - name: shipper_email
+        description: ''
+      - name: shipper_job
+        description: ''
+      - name: shipper_phone
+        description: ''
+      - name: shipper_address
+        description: ''
+      - name: shipper_city
+        description: ''
+      - name: shipper_postal_code
+        description: ''
+      - name: shipper_country
+        description: ''
+      - name: shipper_web_page
+        description: ''
+      - name: partition_timestamp
+        description: ''

@@ -1,0 +1,23 @@
+version: 2
+models:
+  - name: stg1_products
+    description: ''
+    columns:
+      - name: product_id
+        description: ''
+      - name: supplier_ids
+        description: ''
+      - name: product_code
+        description: ''
+      - name: product_name
+        description: ''
+      - name: product_desc
+        description: ''
+      - name: discontinued
+        description: ''
+      - name: product_category
+        description: ''
+      - name: standard_cost
+        description: ''
+      - name: partition_timestamp
+        description: ''

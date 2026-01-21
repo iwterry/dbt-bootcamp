@@ -1,0 +1,9 @@
+version: 2
+models:
+  - name: stg1_order_status
+    description: ''
+    columns:
+      - name: status_id
+        description: ''
+      - name: order_status
+        description: ''

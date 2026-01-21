@@ -1,0 +1,23 @@
+version: 2
+models:
+  - name: stg1_orders
+    description: ''
+    columns:
+      - name: order_id
+        description: ''
+      - name: employee_id
+        description: ''
+      - name: customer_id
+        description: ''
+      - name: shipper_id
+        description: ''
+      - name: order_date
+        description: ''
+      - name: shipped_date
+        description: ''
+      - name: paid_date
+        description: ''
+      - name: status_id
+        description: ''
+      - name: partition_timestamp
+        description: ''
