@@ -1,0 +1,29 @@
+version: 2
+models:
+  - name: stg1_employees
+    description: ''
+    columns:
+      - name: employee_id
+        description: 'Unique identifier for a employee'
+      - name: employee_company_name
+        description: 'employee company name'
+      - name: employee_last_name
+        description: 'Last name of employee'
+      - name: employee_first_name
+        description: 'First name of employee'
+      - name: employee_email
+        description: 'Employee email address'
+      - name: employee_job
+        description: 'Employee job title'
+      - name: employee_phone
+        description: 'Employee mobile number'
+      - name: employee_address
+        description: 'Employee address'
+      - name: employee_city
+        description: 'Employee city'
+      - name: employee_postal_code
+        description: 'Employee postal code'
+      - name: employee_country
+        description: 'Employee country'
+      - name: partition_timestamp
+        description: ''

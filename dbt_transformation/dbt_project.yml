@@ -39,3 +39,21 @@ models:
       +enabled: true
       +materialized: table
       +schema: staging
+    staging1:
+      +enabled: true
+      +materialized: view
+      +schema: staging1
+      +tags:
+        - "staging1"
+    intermediate:
+      +enabled: true
+      +materialized: table
+      +schema: warehouse
+      +tags:
+        - "warehouse"
+    marts:
+      +enabled: true
+      +materialized: table
+      +schema: analytics
+      +tags:
+        - "analytics"

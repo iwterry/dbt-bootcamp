@@ -1,0 +1,21 @@
+version: 2
+models:
+  - name: stg1_order_details
+    description: ''
+    columns:
+      - name: sales_id
+        description:  ''
+      - name: order_id
+        description: ''
+      - name: product_id
+        description: ''
+      - name: quantity
+        description: ''
+      - name: unit_price
+        description: ''
+      - name: discount
+        description: ''
+      - name: date_allocated
+        description: ''
+      - name: partition_timestamp
+        description: ''

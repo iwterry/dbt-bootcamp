@@ -1,0 +1,31 @@
+version: 2
+models:
+  - name: stg1_suppliers
+    description: ''
+    columns:
+      - name: supplier_id
+        description: ''
+      - name: supplier_company_name
+        description: ''
+      - name: supplier_last_name
+        description: ''
+      - name: supplier_first_name
+        description: ''
+      - name: supplier_email
+        description: ''
+      - name: supplier_job
+        description: ''
+      - name: supplier_phone
+        description: ''
+      - name: supplier_address
+        description: ''
+      - name: supplier_city
+        description: ''
+      - name: supplier_postal_code
+        description: ''
+      - name: supplier_country
+        description: ''
+      - name: supplier_web_page
+        description: ''
+      - name: partition_timestamp
+        description: ''

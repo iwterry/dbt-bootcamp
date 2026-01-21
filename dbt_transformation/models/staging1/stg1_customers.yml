@@ -1,0 +1,38 @@
+version: 2
+models:
+  - name: stg1_customers
+    description: 'Staging view for customers source table'
+    columns:
+      - name: customer_id
+        description: 'Unique identifier for a customer'
+        data_tests:
+          - not_null
+          - unique
+      - name: customer_company_name
+        description: 'Customer company name'
+      - name: customer_last_name
+        description: 'Last name of customer'
+      - name: customer_first_name
+        description: 'First name of customer'
+      - name: customer_email
+        description: 'Customer email address'
+      - name: customer_job
+        description: 'Customer job title'
+      - name: customer_phone
+        description: 'Customer mobile number'
+      - name: customer_address
+        description: 'Customer address'
+      - name: customer_city
+        description: 'Customer city'
+      - name: customer_postal_code
+        description: 'Customer postal code'
+        data_tests:
+          - valid_postcode_format:
+              arguments:
+                field: customer_country
+      - name: customer_country
+        description: 'Customer country'
+      - name: partition_timestamp
+        description: ''
+      - name: insertion_timestamp
+        description: ''

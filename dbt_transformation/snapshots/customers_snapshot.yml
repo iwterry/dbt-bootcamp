@@ -1,0 +1,43 @@
+version: 2
+models:
+  - name: customers_snapshot
+    description: 'Snapshot table for customers'
+    columns:
+      - name: id
+        description: 'Unique identifier for a customer'
+      - name: company
+        description: 'Customer company name'
+      - name: last_name
+        description: 'Last name of customer'
+      - name: first_name
+        description: 'First name of customer'
+      - name: email_address
+        description: 'Customer email address'
+      - name: job_title
+        description: 'Customer job title'
+      - name: business_phone
+        description: 'Customer business phone'
+      - name: home_phone
+        description: 'Customer home phone'
+      - name: mobile_phone
+        description: 'Customer mobile number'
+      - name: fax_number
+        description: 'Customer fax number'
+      - name: address
+        description: 'Customer address'
+      - name: city
+        description: 'Customer city'
+      - name: state_province
+        description: ''
+      - name: zip_postal_code
+        description: 'Customer postal code'
+      - name: country_region
+        description: 'Customer country'
+      - name: web_page
+        description: ''
+      - name: notes
+        description: ''
+      - name: attachments
+        description: ''
+      - name: partition_timestamp
+        description: ''
